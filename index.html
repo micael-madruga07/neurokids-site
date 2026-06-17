@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Neurokids — Desenvolvimento e bem-estar para crianças e adultos, com atendimento especializado, acolhedor e baseado em ciência.">
+  <title>Neurokids | Desenvolvimento e Bem-Estar</title>
+  <link rel="icon" href="assets/images/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=8">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="header" id="topo">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="nav__logo" href="#topo" aria-label="Neurokids — início">
+        <img src="assets/images/logo.png" alt="Neurokids" width="120" height="120">
+      </a>
+
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav__panel" id="menu-principal">
+        <ul class="nav__links">
+          <li><a href="#quem-somos">Quem somos</a></li>
+          <li><a href="#servicos">Nossos serviços</a></li>
+          <li><a href="#convenios">Convênios</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <a class="btn btn--small nav__cta" href="#contato">Agendar consulta</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <!-- Hero -->
+    <section class="hero section" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div class="hero__content reveal">
+          <p class="eyebrow">Cuidado multidisciplinar · crianças e adultos</p>
+          <h1 id="hero-title" class="hero__title">
+            <span class="text-navy">Desenvolvimento</span>
+            <span class="text-pink">e Bem-Estar</span>
+            <span class="text-teal">para todas as idades</span>
+          </h1>
+          <p class="hero__subtitle">
+            Um espaço acolhedor e seguro para promover saúde, desenvolvimento e qualidade de vida em todas as fases da vida.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contato">Cuidar agora</a>
+            <a class="btn btn--ghost" href="#servicos">Conhecer serviços</a>
+          </div>
+          <ul class="hero__trust" aria-label="Diferenciais">
+            <li>
+              <strong>11</strong>
+              <span>especialidades integradas</span>
+            </li>
+            <li>
+              <strong>20+</strong>
+              <span>profissionais especializados</span>
+            </li>
+            <li>
+              <strong>400+</strong>
+              <span>pacientes mensais</span>
+            </li>
+          </ul>
+        </div>
+
+        <figure class="hero__media reveal reveal--delay">
+          <div class="hero__media-frame">
+            <img
+              src="assets/images/hero-clinica.png"
+              alt="Interior da clínica Neurokids com logo iluminado, piscina de bolinhas, balanço terapêutico e ambiente acolhedor em tons rosa e verde-água"
+              width="1200"
+              height="800"
+              loading="eager"
+              decoding="async"
+            >
+          </div>
+          <figcaption class="hero__badge">
+            <span class="hero__badge-dot" aria-hidden="true"></span>
+            Estrutura especializada para apoiar cada fase do desenvolvimento.
+          </figcaption>
+        </figure>
+      </div>
+      <div class="hero__blob hero__blob--pink" aria-hidden="true"></div>
+      <div class="hero__blob hero__blob--teal" aria-hidden="true"></div>
+    </section>
+
+    <!-- Missão -->
+    <section class="mission section section--mint" id="quem-somos" aria-labelledby="mission-title">
+      <div class="container mission__grid">
+        <figure class="mission__illustration reveal">
+          <img
+            src="assets/images/rainbow.png"
+            alt="Ilustração de arco-íris com nuvens brancas e detalhes infantis"
+            width="538"
+            height="343"
+            loading="lazy"
+          >
+        </figure>
+
+        <div class="mission__content reveal reveal--delay">
+          <h2 id="mission-title" class="section-title">
+            <span class="text-navy">Nossa missão é</span>
+            <span class="text-pink">desenvolver</span>
+            <span class="text-teal">potenciais</span>
+            <span class="text-navy">e cuidar de vidas.</span>
+          </h2>
+          <p class="section-text">
+            A Neurokids existe para promover o desenvolvimento integral de crianças e adultos,
+            com acolhimento, respeito e ciência. Caminhamos ao lado das famílias em cada
+            descoberta, conquista e transformação.
+          </p>
+          <ul class="mission__values">
+            <li>
+              <span class="mission__value-icon" aria-hidden="true">💛</span>
+              <div>
+                <strong>Acolhimento</strong>
+                <p>Cada família é única. Escutamos com empatia e cuidado.</p>
+              </div>
+            </li>
+            <li>
+              <span class="mission__value-icon" aria-hidden="true">🔬</span>
+              <div>
+                <strong>Ciência</strong>
+                <p>Práticas baseadas em evidências e atualização constante.</p>
+              </div>
+            </li>
+            <li>
+              <span class="mission__value-icon" aria-hidden="true">🤝</span>
+              <div>
+                <strong>Parceria</strong>
+                <p>Trabalhamos junto com famílias, escolas e profissionais de saúde.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="services section section--pink" id="servicos" aria-labelledby="services-title">
+      <div class="container">
+        <header class="section-header reveal">
+          <h2 id="services-title" class="section-title section-title--center">
+            Cuidado especializado para cada necessidade
+          </h2>
+          <p class="section-text section-text--center">
+            Equipe multidisciplinar integrada para acompanhar cada etapa do desenvolvimento, em qualquer fase da vida.
+          </p>
+        </header>
+
+        <div class="services__grid">
+          <article class="service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">🩺</div>
+            <h3>Medicina</h3>
+            <p>Acompanhamento clínico e avaliação médica integrada ao cuidado multidisciplinar.</p>
+            <a class="service-card__link" href="#contato">Saiba mais →</a>
+          </article>
+          <article class="service-card reveal reveal--delay">
+            <div class="service-card__icon" aria-hidden="true">🧠</div>
+            <h3>Neuropsicologia</h3>
+            <p>Avaliação cognitiva e acompanhamento do desenvolvimento para crianças e adultos.</p>
+            <a class="service-card__link" href="#contato">Saiba mais →</a>
+          </article>
+          <article class="service-card reveal reveal--delay-2">
+            <div class="service-card__icon" aria-hidden="true">📚</div>
+            <h3>Neuropsicopedagogia</h3>
+            <p>Integração entre neurociência e aprendizagem para superar dificuldades em qualquer idade.</p>
+            <a class="service-card__link" href="#contato">Saiba mais →</a>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">💬</div>
+            <h3>Psicologia</h3>
+            <p>Apoio emocional para crianças, adolescentes e adultos, com orientação familiar quando necessário.</p>
+            <a class="service-card__link" href="#contato">Saiba mais →</a>
+          </article>
+          <article class="service-card reveal reveal--delay">
+            <div class="service-card__icon" aria-hidden="true">✏️</div>
+            <h3>Psicopedagogia</h3>
+            <p>Identificação e intervenção nas dificuldades de aprendizagem de forma acolhedora.</p>
+            <a class="service-card__link" href="#contato">Saiba mais →</a>
+          </article>
+          <article class="service-card reveal reveal--delay-2">
+            <div class="service-card__icon" aria-hidden="true">🗣️</div>
+            <h3>Fonoaudiologia</h3>
+            <p>Desenvolvimento da fala, linguagem, audição e comunicação social.</p>
+            <a class="service-card__link" href="#contato">Saiba mais →</a>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">🥗</div>
+            <h3>Nutrição</h3>
+            <p>Orientação alimentar personalizada para saúde e bem-estar em todas as fases da vida.</p>
+            <a class="service-card__link" href="#contato">Saiba mais →</a>
+          </article>
+          <article class="service-card reveal reveal--delay">
+            <div class="service-card__icon" aria-hidden="true">🤸</div>
+            <h3>Terapia Ocupacional</h3>
+            <p>Autonomia, coordenação motora e habilidades para o dia a dia.</p>
+            <a class="service-card__link" href="#contato">Saiba mais →</a>
+          </article>
+          <article class="service-card reveal reveal--delay-2">
+            <div class="service-card__icon" aria-hidden="true">🏃</div>
+            <h3>Fisioterapia</h3>
+            <p>Reabilitação motora, postura e desenvolvimento físico com abordagem humanizada.</p>
+            <a class="service-card__link" href="#contato">Saiba mais →</a>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-card__icon" aria-hidden="true">🧘</div>
+            <h3>Pilates</h3>
+            <p>Fortalecimento, equilíbrio e consciência corporal para crianças e adultos.</p>
+            <a class="service-card__link" href="#contato">Saiba mais →</a>
+          </article>
+          <article class="service-card reveal reveal--delay">
+            <div class="service-card__icon" aria-hidden="true">🤝</div>
+            <h3>Assistente terapêutica</h3>
+            <p>Suporte individualizado no dia a dia, reforçando estratégias terapêuticas.</p>
+            <a class="service-card__link" href="#contato">Saiba mais →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Convênios -->
+    <section class="convenios section" id="convenios" aria-labelledby="convenios-title">
+      <div class="container">
+        <header class="section-header reveal">
+          <h2 id="convenios-title" class="section-title section-title--center">
+            Atendemos diversos convênios
+          </h2>
+          <p class="section-text section-text--center">
+            Consulte nossa equipe para verificar cobertura e autorização do seu plano.
+          </p>
+        </header>
+        <div class="convenios__slider reveal">
+          <button class="convenios__nav convenios__nav--prev" type="button" aria-label="Convênios anteriores" disabled>
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M15.41 7.41 14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+          </button>
+
+          <div class="convenios__viewport">
+            <ul class="convenios__track" aria-label="Convênios aceitos">
+              <li class="convenios__item">
+                <img src="assets/convenios/01-unimed.png" alt="Unimed" width="160" height="160" loading="lazy">
+              </li>
+              <li class="convenios__item">
+                <img src="assets/convenios/02-pladisa.png" alt="Pladisa Planos de Saúde" width="160" height="160" loading="lazy">
+              </li>
+              <li class="convenios__item">
+                <img src="assets/convenios/03-sc-saude.png" alt="Plano SC Saúde" width="160" height="160" loading="lazy">
+              </li>
+              <li class="convenios__item">
+                <img src="assets/convenios/04-celos.png" alt="CELOS" width="160" height="160" loading="lazy">
+              </li>
+              <li class="convenios__item">
+                <img src="assets/convenios/05-care-plus.png" alt="Care Plus" width="160" height="160" loading="lazy">
+              </li>
+              <li class="convenios__item">
+                <img src="assets/convenios/06-fusex.png" alt="FUSEX — Fundo de Saúde do Exército" width="160" height="160" loading="lazy">
+              </li>
+              <li class="convenios__item">
+                <img src="assets/convenios/07-wellhub.png" alt="Wellhub" width="160" height="160" loading="lazy">
+              </li>
+            </ul>
+          </div>
+
+          <button class="convenios__nav convenios__nav--next" type="button" aria-label="Próximos convênios">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M8.59 16.59 13.17 12 8.59 7.41 10 6l6 6-6 6z"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="contact section section--pink" id="contato" aria-labelledby="contact-title">
+      <div class="container contact__grid">
+        <div class="contact__info reveal">
+          <h2 id="contact-title" class="section-title">
+            Vamos cuidar juntos?
+          </h2>
+          <p class="section-text">
+            Agende uma avaliação ou tire suas dúvidas. Nossa equipe entrará em contato em breve.
+          </p>
+          <ul class="contact__details">
+            <li>
+              <span aria-hidden="true"> <b>📍 Matriz:</b> </span>
+            Rua Frei Rogério, 394 - Centro, Lages - SC
+            </li>
+            <li>
+              <span aria-hidden="true"> <b>📍 Filial I:</b> </span>
+            Rua Emiliano Ramos, 300 - Centro, Lages - SC
+            </li>
+            <li>
+              <span aria-hidden="true">📞</span>
+              <a href="tel:+5549999348457">(49) 99934-8457</a>
+            </li>
+            <li>
+              <span aria-hidden="true">✉️</span>
+              <a href="mailto:contato@neurokids.com.br">contato@neurokids.com.br</a>
+            </li>
+            <li>
+              <span aria-hidden="true">🕐</span>
+              Seg–Sex, 8h às 20h · Sáb, 8h às 12h
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact__form reveal reveal--delay" novalidate>
+          <div class="form-group">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" name="nome" required autocomplete="name" placeholder="Seu nome">
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required autocomplete="email" placeholder="seu@email.com">
+          </div>
+          <div class="form-group">
+            <label for="telefone">Telefone / WhatsApp</label>
+            <input type="tel" id="telefone" name="telefone" autocomplete="tel" placeholder="(49) 99999-9999">
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Como podemos ajudar?</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required placeholder="Conte um pouco sobre como podemos ajudar..."></textarea>
+          </div>
+          <p class="form-status" role="status" aria-live="polite" hidden></p>
+          <button class="btn btn--primary btn--full" type="submit">Enviar mensagem</button>
+          <p class="form-note">Ao enviar, você concorda em ser contactado pela nossa equipe.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="nav__logo" href="#topo">
+          <img src="assets/images/logo.png" alt="Neurokids" width="120" height="120">
+        </a>
+        <p>Presente em todas as etapas do seu desenvolvimento.</p>
+        <p>CNPJ: 57.630.228/0001-82</p>
+      </div>
+      <nav aria-label="Links do rodapé">
+        <ul class="footer__links">
+          <li><a href="#quem-somos">Quem somos</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#convenios">Convênios</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a href="politica-de-privacidade.html">Política de privacidade</a></li>
+        </ul>
+      </nav>
+      <div class="footer__social">
+        <a href="https://www.instagram.com/neurokidslages" aria-label="Instagram">Instagram</a>
+        <a href="https://www.facebook.com/profile.php?id=61580881568111" aria-label="Facebook">Facebook</a>
+        <a href="https://wa.me/5549999348457" aria-label="WhatsApp">WhatsApp</a>
+      </div>
+    </div>
+    <p class="footer__copy container">© 2026 Centro Neurokids LTDA. Todos os direitos reservados.</p>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/5549999348457" target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.882 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="google-form.config.js?v=6"></script>
+  <script src="script.js?v=6"></script>
+</body>
+</html>
