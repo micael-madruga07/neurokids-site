@@ -127,9 +127,13 @@
     const nextBtn = conveniosSlider.querySelector(".convenios__nav--next");
     const items = conveniosSlider.querySelectorAll(".convenios__item");
     let page = 0;
-    const perPage = 4;
+
+    function getPerPage() {
+      return window.matchMedia("(max-width: 768px)").matches ? 2 : 4;
+    }
 
     function getMaxPage() {
+      const perPage = getPerPage();
       return Math.max(0, Math.ceil(items.length / perPage) - 1);
     }
 
@@ -139,6 +143,7 @@
 
     function updateConveniosSlider() {
       const gap = parseFloat(getComputedStyle(track).gap) || 20;
+      const perPage = getPerPage();
       const itemWidth = (viewport.clientWidth - gap * (perPage - 1)) / perPage;
       items.forEach((item) => {
         item.style.width = `${itemWidth}px`;
